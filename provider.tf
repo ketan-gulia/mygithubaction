@@ -8,7 +8,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "=4.1.0"
+      version = "=4.77.0"
     }
     
     }
@@ -17,6 +17,5 @@ terraform {
 
 # Configure the Microsoft Azure Provider
 provider "azurerm" {
-  resource_provider_registrations = "none" 
   features {}
 }
